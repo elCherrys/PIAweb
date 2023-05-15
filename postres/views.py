@@ -15,5 +15,5 @@ def top_10(request):
 def saludables(request):
     return render(request,'index.html')
 
-def sin_gluten(request):
-    return render(request,'index.html')
+def contacto(request):
+    return render(request,"contacto.html")
