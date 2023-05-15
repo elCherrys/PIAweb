@@ -1,0 +1,28 @@
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#navBar {
+    display: flex;
+    background-color: black;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.navItems {
+    margin: 0;
+    flex-grow: 1;
+    background-color: blueviolet;
+    height: 100%;
+}
